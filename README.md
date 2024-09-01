@@ -1,51 +1,43 @@
 # Student Admission System
 
-The **Student Admission System** is a comprehensive and user-friendly application designed to manage the entire admission process for educational institutions. This project streamlines the registration and management of student admissions, providing a seamless experience for both administrators and applicants.
+This project is a **Student Admission System** developed using **HTML**, **CSS**, **Bootstrap**, **JavaScript**, **PHP**, and **MySQL** on a **WAMP server**. The system is designed to streamline the process of student admissions, making it easier for administrators to manage applications and for students to submit their information.
 
 ## Features
 
-- **Student Registration:** Easily add and manage student details, including personal information, contact details, and academic history.
-- **Course Management:** Administer courses and assign students to their chosen programs.
-- **Admission Process:** Handle the complete admission workflow, from application submission to approval and enrollment.
-- **User Authentication:** Secure login for administrators and student, ensuring that only authorized users can access sensitive data
-
+- **User-Friendly Interface**: The system features a clean and responsive design using Bootstrap, ensuring accessibility across various devices.
+- **Student Registration**: Students can fill out an online application form with all necessary details, including personal information, educational background, and course preferences.
+- **Admin Dashboard**: An administrative panel for managing student applications, viewing submissions, and updating student records.
+- **Database Management**: The backend is powered by MySQL, ensuring secure and efficient storage of student data.
+- **Real-Time Validation**: JavaScript is used for client-side validation, ensuring that users enter data correctly before submission.
+- **Secure Login System**: Admin access is protected by a secure login system implemented in PHP.
+  
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript,BootStrap
-- **Backend:** PHP
-- **Database:** MySQL
-- **Version Control:** Git, GitHub
+- **Frontend**: HTML, CSS, Bootstrap, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+- **Server**: WAMP Server
 
-## Getting Started
+## Installation
 
-### Prerequisites
-
-- Install WAMP Server
-- Set up the database by importing the provided SQL file into your MySQL.
-
-### Installation
-
-1. Clone the repository:
+1. **Clone the repository**:
+   ```bash
    git clone https://github.com/abujyogesh/Student_Admission_System.git
-   
-2. Navigate to the project directory:
-   cd student-admission-system
-   
-3. Set up the database connection in files.
+   ```
+2. **Set up the database**:
+   - Import the provided SQL file into your MySQL database.
+   - Update the database connection details in the `config.php` file.
 
-4. Start the Wamp server.
-  
-6. Locate File And Run. 
+3. **Run the application**:
+   - Place the project folder in the `www` directory of your WAMP server.
+   - Start the WAMP server and open the application in your browser.
 
-### Usage
+## Usage
 
-- Navigate to `http://localhost:8080` in your web browser to access the application.
-- Log in as an administrator to manage admissions and student data.
+- **For Students**: Visit the homepage, fill out the admission form, and submit it.
+- **For Admin**: Log in to the admin dashboard to manage student records.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and submit a pull request for review.
+Feel free to fork this project and submit pull requests. Any contributions towards improving this system are welcome.
 
-## Contact
-
-For any questions or feedback, feel free to contact me at abujyogesh2020@gmail.com.
